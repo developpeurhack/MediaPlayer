@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet MyMediaPlayer</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/script.js" defer></script>
+</head>
+<body>
+    <h1>MyMediaPlayer</h1>
+    <div class="video-container">
+        <video src="img/La-position-en-CSS-YouTube.mp4" preload="metadata" class="video">
+            <source src="ressources/video.mp4" class="video/mp4"> </source>
+        </video>
+        <div class="controls">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="controls-container">
+                <button class="play-toggle">
+                    <img src="img/button.svg" alt=""> 
+                </button>
+                <button class="mute-btn">
+                    <img src="img/volume.jpg" alt="">
+                </button>
+                <input type="range" class="volume-slide" min="0" max="100" value="50" step="1">
+                <p class="time">
+                    <span class="time-display current"> 00:00<span>
+                    <span>/</span>
+                    <span class="time-display total">00:00<span>  
+                </p>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
